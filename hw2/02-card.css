@@ -2,7 +2,12 @@
 If you would prefer, you can delete them and use your own classes and style declarations. */
 
 .container {
-  width: 300px;
+  width: 225px;
+  padding: 10px;
+  padding-bottom: 35px;
+  border: 1px solid var(--navy);
+  border-radius: 10px;
+  text-align: center;
 }
 
 .img {
@@ -10,5 +15,24 @@ If you would prefer, you can delete them and use your own classes and style decl
 }
 
 .btn {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: var(--navy);
+  color: var(--white);
+}
+
+.btn:hover {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+p.cat-talk {
+  text-align: left;
+  max-width: 200px;
+}
+
+h2.title {
+  color: var(--navy);
 }

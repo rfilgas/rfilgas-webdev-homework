@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>05 - Form</title>
-    <!-- <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../hw2/05-form.css" /> -->
-  </head>
-  <body>
-    <main>
-      <form action="">
-        <h1>Registration Form</h1>
-        <!-- Add your code here -->
-        
-        <label>
-          Username:
-          <input type="text" name="username" required="required" /></title>
-        </label>
-        <br/> <br/> 
 
-        <label>
-          Email:
-          <input type="text" name="email" required="required" /></title>
-        </label>
-        <br/> <br/> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>05 - Form</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../hw2/05-form.css" />
+</head>
 
-        <label>
-        Password:
-        <input type="text" name="password" required="required" /></title>
-        </label>
-        <br/> <br/> 
-        
-        <fieldset>
-          <legend>Would you like to sign up for the newsletter?</legend>
+<body>
+  <main>
+    <form action="" class="login">
+      <h1>Registration Form</h1>
+      <!-- Add your code here -->
 
-          <input id="newsletter-yes" type="radio" name="newsletter-opt-in" value="y">
-          <label for="newsletter-yes">Yes, sign me up</label>
-
-          <input id="newsletter-no" type="radio" name="newsletter-opt-in" value="n">
-          <label for="newsletter-no">No, thank you</label>
-        </fieldset>
-        <br/>
+      <section class="loginfields">
+        </div><label for="username">Username:</label></div>
+        </div><input id="username" type="username" name="username" required="required" /></title>
+        </div><label for="email">Email:</label></div>
+        </div><input id="email" type="email" name="email" required="required" /></title>
+        </div><label for="password">Password:</label></div>
+        </div><input id="password" type="password" name="password" required="required" /></title>
+      </section>
 
 
-        <label>
-          Date:
-          <input type="date" name="registration-date" />
-        <label>
-        <br/> <br/> 
+      </div class="question">
+      <p>Would you like to sign up for the newsletter?</p>
+      </div>
 
-        <input type="submit" value="Submit" />
-        <input type="reset" value="Reset" />
+      <section class="newsletter-question">
+        </div><input id="newsletter-yes" type="radio" name="newsletter-opt-in" value="y"> </div>
+        </div><label for="newsletter-yes">Yes, sign me up</label> </div>
 
-      </form>
-    </main>
-  </body>
+        </div> <input id="newsletter-no" type="radio" name="newsletter-opt-in" value="n"> </div>
+        </div><label for="newsletter-no">No, thank you</label> </div>
+      </section>
+
+      <section class="date-entry">
+        </div><label for="registration-date">Date:</label></div>
+        </div><input id="registration-date" type="date" name="registration-date" /></div>
+      </section>
+
+      <div class="submit-buttons">
+        <input type="submit" value="Submit" class="btn-primary" />
+        <input type="reset" value="Reset" class="btn-secondary" />
+      </div>
+
+    </form>
+  </main>
+</body>
+
 </html>

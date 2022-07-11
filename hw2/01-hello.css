@@ -4,3 +4,21 @@ If you would prefer, you can delete them and use your own classes and style defi
 .container {
   width: 50vw;
 }
+
+p.intro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.intro:first-line {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 100px;
+}

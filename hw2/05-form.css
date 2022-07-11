@@ -1,17 +1,122 @@
 /* The class names and style declarations below were added to help you get started.
 If you would prefer, you can delete them and use your own classes and style declarations. */
 
-.form {
-}
-
-.form-element {
-}
-
-.btn {
-}
-
 .btn-primary {
+  height: 35px;
+  width: 190px;
+  background-color: var(--green);
+  color: var(--white);
+  border: 1px solid var(--green);
+  border-radius: 2px;
+}
+.btn-primary:hover {
+  background-color: var(--orange);
+  color: var(--black);
 }
 
 .btn-secondary {
+  height: 35px;
+  width: 190px;
+  background-color: var(--white);
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 2px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--red);
+  color: var(--black);
+}
+
+.login {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.submit-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.login h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login p {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.loginfields label {
+  width: min-content;
+}
+
+.loginfields input {
+  width: 100%;
+}
+
+.loginfields {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 20fr;
+  row-gap: 35px;
+  column-gap: 10px;
+  font-weight: bold;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: var(--gray1);
+}
+
+.loginfields::after {
+  content: "";
+  display: block;
+  height: 1em;
+}
+
+.date-entry {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 2fr 5fr;
+  text-align: left;
+  column-gap: 10;
+
+  font-weight: bold;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: var(--gray1);
+}
+
+.date-entry::after {
+  content: "";
+  display: block;
+  height: 1.5em;
+}
+
+.newsletter-question {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 30fr;
+  text-align: left;
+  column-gap: 10px;
+  padding-left: 15px;
+}
+
+.newsletter-question label {
+  width: auto;
+}
+
+.newsletter-question input {
+  width: min-content;
+}
+
+.newsletter-question::after {
+  content: "";
+  display: block;
+  height: 1.5em;
 }

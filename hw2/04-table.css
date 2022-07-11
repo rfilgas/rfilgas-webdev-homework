@@ -6,9 +6,24 @@ If you would prefer, you can delete them and use your own classes and style decl
 }
 
 .table-heading {
+  background-color: var(--green);
+  color: var(--white);
   /* use the custom properties green and white for the colors - these colors are defined in the styles.css file */
 }
 
 .channel {
+  background-color: var(--orange);
+  color: var(--black);
   /* use the custom properties orange and black for the colors - these colors are defined in the styles.css file */
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+tr:hover td {
+  background-color: var(--lightorange);
+  color: var(--black);
 }
