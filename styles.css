@@ -8,6 +8,9 @@
   --gray2: #555555;
   --gray3: #cccccc;
   --gray4: #aaaaaa;
+  --bootstrap-gray100: #f8f9fa;
+  --bootstrap-gray200: #e9ecef;
+  --bootstrap-gray400: #ced4da;
 
   --black: #080808;
   --teal: #006060;
@@ -22,7 +25,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--gray1);
 }
