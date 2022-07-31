@@ -3,7 +3,8 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 .btn-primary {
   height: 35px;
-  width: 190px;
+  width: 180px;
+  margin-right: 10px;
   background-color: var(--green);
   color: var(--white);
   border: 1px solid var(--green);
@@ -16,11 +17,15 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 .btn-secondary {
   height: 35px;
-  width: 190px;
+  width: 187px;
   background-color: var(--white);
   color: var(--green);
   border: 1px solid var(--green);
   border-radius: 2px;
+}
+
+.custom-btn-right {
+  max-width: 49.2%;
 }
 
 .btn-secondary:hover {
@@ -35,11 +40,11 @@ If you would prefer, you can delete them and use your own classes and style decl
 
 .submit-buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px;
+  align-items: left;
+  justify-content: left;
+  padding: 0px;
   width: 100%;
+  border: none;
 }
 
 .login h1 {
@@ -119,4 +124,8 @@ If you would prefer, you can delete them and use your own classes and style decl
   content: "";
   display: block;
   height: 1.5em;
+}
+
+form {
+  margin: auto;
 }

@@ -1,0 +1,280 @@
+// let green ="#006400";
+// let red = "#ff0000";
+// let orange = "#ffa500";
+// let white = "#ffffff";
+// let gray1 = "#333333";
+// let gray4 = "#aaaaaa";
+
+// let form = document.querySelector('form');
+// form.style.border = "1px solid black";
+// form.style.padding = "10px";
+// form.style.margin = "auto";
+// form.style.maxWidth = "375px";
+// form.style.borderRadius = "5px";
+// form.style.borderColor = `${gray4}`
+// form.style.padding = "30px";
+
+// let title = document.querySelector("h1");
+// title.style.textTransform = "uppercase";
+// title.style.textAlign = "center";
+
+// // {/* <section class="loginfields"> */}
+// let loginfields = document.createElement("section");
+// form.appendChild(loginfields);
+// loginfields.class = "loginfields";
+// loginfields.style.display = "grid";
+// loginfields.style.justifyContent = "center";
+// loginfields.style.gridTemplateColumns = "1fr 20fr";
+// loginfields.style.rowGap = "35px";
+// loginfields.style.columnGap = "10px";
+// loginfields.style.fontWeight = "bold";
+// loginfields.style.fontFamily = "'Open Sans', 'Helvetica Neue', sans-serif";
+// loginfields.style.fontSize = "1em";
+// loginfields.style.color = `${gray1}`;
+
+// let spacing = document.createElement("div");
+// spacing.textContent = "";
+// spacing.style.display = "block";
+// spacing.style.height = "1em";
+// spacing.class = "spacing";
+// form.appendChild(spacing);
+
+// // // USER INFO ****************************************
+
+// // // </div><label for="username">Username:</label></div>
+// let l1_div = document.createElement("div");
+// let username_label = document.createElement("label");
+// l1_div.appendChild(username_label);
+// loginfields.appendChild(l1_div);
+// username_label.class = "username-label";
+// username_label.textContent = "Username:";
+// username_label.label = "Username";
+// username_label.style.width = "min-content";
+
+
+// // // </div><input id="username" type="username" name="username" required="required" /></title>
+// let l2_div = document.createElement("div");
+// let username_input = document.createElement("input");
+// l2_div.appendChild(username_input);
+// loginfields.appendChild(l2_div);
+// username_input.class = "username-input";
+// username_input.label = "Username Input";
+// username_input.style.width = "100%";
+// username_input.style.border = `2px solid ${gray4}`;
+
+
+// // // </div><label for="email">Email:</label></div>
+// let l3_div = document.createElement("div");
+// let email_label = document.createElement("label");
+// l3_div.appendChild(email_label);
+// loginfields.appendChild(l3_div);
+// email_label.class = "email_label";
+// email_label.textContent = "Email:";
+// email_label.label = "Email";
+// email_label.style.width = "min-content";
+
+// // // </div><input id="email" type="email" name="email" required="required" /></title>
+// let l4_div = document.createElement("div");
+// let email_input = document.createElement("input");
+// l4_div.appendChild(email_input);
+// loginfields.appendChild(l4_div);
+// email_input.class = "email_input";
+// email_input.label = "Email Input";
+// email_input.style.width = "100%";
+// email_input.style.border = `2px solid ${gray4}`;
+
+// // // </div><label for="password">Password:</label></div>
+// let l5_div = document.createElement("div");
+// let password_label = document.createElement("label");
+// l5_div.appendChild(password_label);
+// loginfields.appendChild(l5_div);
+// password_label.class = "password-label";
+// password_label.textContent = "Password:";
+// password_label.label = "Password";
+// password_label.style.width = "min-content";
+
+// // // </div><input id="password" type="password" name="password" required="required" /></title>
+// let l6_div = document.createElement("div");
+// let password_input = document.createElement("input");
+// password_input.class = "password_input";
+// l6_div.appendChild(password_input);
+// loginfields.appendChild(l6_div);
+// password_input.label = "Password Input";
+// password_input.style.width = "100%";
+// password_input.style.border = `2px solid ${gray4}`;
+
+// // // USER INFO ****************************************
+
+// // // // NEWSLETTER OPT-IN ********************************
+// let question_container = document.createElement("div");
+
+// let newsletter_question = document.createElement("p");
+// newsletter_question.textContent =
+//   "Would you like to sign up for the newsletter?";
+// newsletter_question.class = "newsletter_question";
+// newsletter_question.style.fontWeight = "bold";
+// newsletter_question.style.padding = "0";
+// newsletter_question.style.margin = "0";
+// form.appendChild(question_container);
+// question_container.appendChild(newsletter_question);
+
+// let spacing_1 = document.createElement("div");
+// spacing_1.textContent = "";
+// spacing_1.style.display = "block";
+// spacing_1.style.height = "1em";
+// spacing_1.class = "spacing";
+// question_container.appendChild(spacing_1);
+
+// /* <section class="newsletter-question"> */
+
+// let newsletter_opt = document.createElement("field-set");
+// newsletter_opt.class = "newsletter_opt";
+// newsletter_opt.label = "newsletter_opt";
+// newsletter_opt.style.display = "grid";
+// newsletter_opt.style.justifyContent = "center";
+// newsletter_opt.style.gridTemplateColumns = "1fr 30fr";
+// newsletter_opt.style.textAlign = "left";
+// newsletter_opt.style.columnGap = "10px";
+// newsletter_opt.style.paddingLeft = "15px";
+// question_container.appendChild(newsletter_opt);
+
+// // //   </div><input id="newsletter-yes" type="radio" name="newsletter-opt-in" value="y"> </div>
+// let news_div1 = document.createElement("div");
+// let newsletter_opt_in = document.createElement("input");
+// newsletter_opt_in.class = "newsletter-opt-in";
+// newsletter_opt_in.label = "newsletter-opt-in";
+// newsletter_opt_in.id = "newsletter-yes";
+// newsletter_opt_in.type = "radio";
+// newsletter_opt_in.value = "y";
+// newsletter_opt_in.style.width = "min-content";
+// news_div1.appendChild(newsletter_opt_in);
+// newsletter_opt.appendChild(news_div1);
+
+// //   </div><label for="newsletter-yes">Yes, sign me up</label> </div>
+// let news_div2 = document.createElement("div");
+// let newsletter_opt_in_label = document.createElement("label");
+// newsletter_opt_in_label.class = "newsletter-opt-in-label";
+// newsletter_opt_in_label.label = "newsletter-opt-in-label";
+// newsletter_opt_in_label.textContent = "Yes, sign me up";
+// newsletter_opt_in.style.width = "auto";
+// news_div2.appendChild(newsletter_opt_in_label);
+// newsletter_opt.appendChild(news_div2);
+
+// //   </div> <input id="newsletter-no" type="radio" name="newsletter-opt-in" value="n"> </div>
+// let news_div3 = document.createElement("div");
+// let newsletter_opt_out = document.createElement("input");
+// newsletter_opt_out.class = "newsletter-opt-out";
+// newsletter_opt_out.label = "newsletter-opt-out";
+// newsletter_opt_out.id = "newsletter-no";
+// newsletter_opt_out.type = "radio";
+// newsletter_opt_out.value = "n";
+// newsletter_opt_out.style.width = "min-content";
+// news_div3.appendChild(newsletter_opt_out);
+// newsletter_opt.appendChild(news_div3);
+
+// //   </div><label for="newsletter-no">No, thank you</label> </div>
+// let news_div4 = document.createElement("div");
+// let newsletter_opt_out_label = document.createElement("label");
+// newsletter_opt_out_label.label = "newsletter-opt-out-label";
+// newsletter_opt_out_label.class = "newsletter-opt-out-label";
+// newsletter_opt_out_label.textContent = "No, thank you";
+// newsletter_opt_out_label.style.width = "auto";
+// news_div4.appendChild(newsletter_opt_out_label);
+// newsletter_opt.appendChild(news_div4);
+
+// // NEWSLETTER OPT-IN ********************************
+// let date_container = document.createElement('section')
+// date_container.style.display = "grid";
+// date_container.style.justifyContent = "center";
+// date_container.style.gridTemplateColumns = "10fr 2fr";
+// date_container.style.textAlign = "left";
+// date_container.style.columnGap = "10";
+// date_container.style.fontweight = "bold";
+// date_container.style.fontFamily = "'Open Sans', 'Helvetica Neue', 'sans-serif'";
+// date_container.style.fontSize = "1em";
+
+
+// let date_div1 = document.createElement("div");
+// let date_label = document.createElement("label");
+// date_label.class = "date-label";
+// date_label.label = "date-label";
+// date_label.textContent = "Date: ";
+
+
+// date_label.style.color = `${gray1}`;
+// date_div1.appendChild(date_label);
+// date_container.appendChild(date_div1);
+
+// let date_div2 = document.createElement("div");
+// let date_input = document.createElement("input");
+// date_input.class = "date-input";
+// date_input.type = "date";
+// date_input.id = "registration-date";
+// date_input.style.border = `2px solid ${gray4}`;
+// date_div2.appendChild(date_input);
+// date_container.appendChild(date_div2);
+
+
+// form.appendChild(date_container);
+
+
+
+// let spacing_2 = document.createElement("div");
+// spacing_2.textContent = "";
+// spacing_2.style.display = "block";
+// spacing_2.style.height = "1em";
+// spacing_2.class = "spacing";
+// form.appendChild(spacing_2);
+
+// let btn_submits = document.createElement("fieldset");
+// btn_submits.class = "submit-buttons";
+// btn_submits.style.display = "flex";
+// btn_submits.style.alignItems = "left";
+// btn_submits.style.justifyContent = "left";
+// btn_submits.style.padding = "0";
+// btn_submits.style.width = "100%";
+// btn_submits.style.border = "none";
+// form.appendChild(btn_submits)
+
+// let btn_primary = document.createElement("button");
+// btn_primary.type = "submit";
+// btn_primary.value = "Submit";
+// btn_primary.textContent = "Submit";
+// btn_primary.class = "btn-primary";
+// btn_primary.style.height = "35px";
+// btn_primary.style.width = "180px";
+// btn_primary.style.marginRight = "10px";
+// btn_primary.style.backgroundColor = `${green}`;
+// btn_primary.style.color = `${white}`;
+// btn_primary.style.border = `1px solid ${green}`;
+// btn_primary.style.borderRadius = "2px";
+// btn_submits.appendChild(btn_primary);
+
+// // .btn-primary:hover {
+// //   background-color: var(--orange);
+// //   color: var(--black);
+// // }
+
+// let btn_secondary = document.createElement("button");
+// btn_secondary.type = "reset";
+// btn_secondary.value = "Reset";
+// btn_secondary.style.height = "35px";
+// btn_secondary.textContent = "Reset";
+// btn_secondary.style.width = "187px";
+// btn_secondary.style.backgroundColor = `${white}`;
+// btn_secondary.style.color = `${green}`;
+// btn_secondary.style.border = `1px solid ${green}`
+// btn_secondary.style.borderRadius = "2px";
+// btn_secondary.maxWidth = "49.2%";
+// btn_submits.appendChild(btn_secondary);
+
+// // .btn-secondary:hover {
+// //   background-color: var(--red);
+// //   color: var(--black);
+// // }
+
+form.addEventListener("submit", handleSubmit);
+
+function handleSubmit(event) {
+  // Add your code here
+}
